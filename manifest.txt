@@ -1,0 +1,15 @@
+{
+  "domain": "chore_tracker",
+  "name": "Chore Tracker",
+  "version": "0.1.0",
+  "codeowners": ["@seedybee"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/seedybee/chore_tracker",
+  "integration_type": "helper",
+  "iot_class": "calculated",
+  "quality_scale": "bronze",
+  "requirements": [],
+  "ssdp": [],
+  "zeroconf": []
+}

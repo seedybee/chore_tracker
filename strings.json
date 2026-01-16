@@ -1,0 +1,45 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "description": "New Chore Tracker Sensor",
+        "data": {
+          "name": "Name",
+          "icon": "Icon",
+          "person_entity": "Assigned person",
+          "recurrence_type": "Recurrence type"
+        }
+      },
+      "recurrence": {
+        "description": "Set recurrence details",
+        "data": {
+          "interval": "Occur every",
+          "weekdays": "On weekdays",
+          "day_of_month": "Day of month",
+          "month": "Month",
+          "start_date": "Start date"
+        }
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "data": {
+          "recurrence_type": "Recurrence type",
+          "icon": "Icon",
+          "person_entity": "Assigned person"
+        }
+      },
+      "recurrence": {
+        "data": {
+          "interval": "Occur every",
+          "weekdays": "On weekdays",
+          "day_of_month": "Day of month",
+          "month": "Month",
+          "start_date": "Start date"
+        }
+      }
+    }
+  }
+}
