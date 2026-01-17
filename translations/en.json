@@ -1,0 +1,45 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "description": "Create chore",
+                "data": {
+                    "name": "Chore name",
+                    "icon": "Icon",
+                    "person_entity": "Assigned to",
+                    "recurrence_type": "Recurrence pattern"
+                }
+            },
+            "recurrence": {
+                "description": "Set recurrence details",
+                "data": {
+                    "interval": "Occur every",
+                    "weekdays": "On weekdays",
+                    "day_of_month": "Day of month",
+                    "month": "Month",
+                    "start_date": "Start date"
+                }
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "recurrence_type": "Recurrence pattern",
+                    "icon": "Icon",
+                    "person_entity": "Assigned to"
+                }
+            },
+            "recurrence": {
+                "data": {
+                    "interval": "Occur every",
+                    "weekdays": "On weekdays",
+                    "day_of_month": "Day of month",
+                    "month": "Month",
+                    "start_date": "Start date"
+                }
+            }
+        }
+    }
+}

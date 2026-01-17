@@ -1,0 +1,31 @@
+complete_chore:
+  name: Complete chore
+  description: Mark a chore as completed and calculate the next due date
+  fields:
+    entity_id:
+      name: Entity
+      description: The chore entity to mark as complete
+      required: true
+      selector:
+        entity:
+          domain: sensor
+          integration: chore_tracker
+
+set_due_date:
+  name: Set due date
+  description: Set a custom due date for a chore (useful for manual tasks)
+  fields:
+    entity_id:
+      name: Entity
+      description: The chore entity to update
+      required: true
+      selector:
+        entity:
+          domain: sensor
+          integration: chore_tracker
+    due_date:
+      name: Due date
+      description: The new due date for the chore
+      required: true
+      selector:
+        date:

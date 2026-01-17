@@ -2,21 +2,26 @@
   "config": {
     "step": {
       "user": {
-        "description": "New Chore Tracker Sensor",
+        "description": "Create chore",
         "data": {
-          "name": "Name",
+          "name": "Chore name",
           "icon": "Icon",
-          "person_entity": "Assigned person",
-          "recurrence_type": "Recurrence type"
+          "person_entity": "Assigned to",
+          "recurrence_type": "Recurrence pattern"
         }
       },
       "recurrence": {
         "description": "Set recurrence details",
         "data": {
+          "monday_monthly": "Monday",
+          "tuesday_monthly": "Tuesday",
+          "wednesday_monthly": "Wednesday",
+          "thursday_monthly": "Thursday",
+          "friday_monthly": "Friday",
+          "saturday_monthly": "Saturday",
+          "sunday_monthly": "Sunday",
+          "monthly_weeks": "Week",
           "interval": "Occur every",
-          "weekdays": "On weekdays",
-          "day_of_month": "Day of month",
-          "month": "Month",
           "start_date": "Start date"
         }
       }
@@ -26,17 +31,22 @@
     "step": {
       "init": {
         "data": {
-          "recurrence_type": "Recurrence type",
+          "recurrence_type": "Recurrence pattern",
           "icon": "Icon",
-          "person_entity": "Assigned person"
+          "person_entity": "Assigned to"
         }
       },
       "recurrence": {
         "data": {
+          "monday_monthly": "Monday",
+          "tuesday_monthly": "Tuesday",
+          "wednesday_monthly": "Wednesday",
+          "thursday_monthly": "Thursday",
+          "friday_monthly": "Friday",
+          "saturday_monthly": "Saturday",
+          "sunday_monthly": "Sunday",
+          "monthly_weeks": "Week",
           "interval": "Occur every",
-          "weekdays": "On weekdays",
-          "day_of_month": "Day of month",
-          "month": "Month",
           "start_date": "Start date"
         }
       }
